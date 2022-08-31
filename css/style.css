@@ -31,10 +31,6 @@
         text-decoration: none;
         color: var(--color-one);
     }
-
-    a:hover {
-        color: var(--secondary-color);
-    }
     h1,
     h2,
     h3,
@@ -105,8 +101,9 @@
         position: fixed;
         width: 100%;
         text-align: center;
-        left: -100%;
+        top: -100%;
         flex-direction: column;
+        transition: .25s;
     }
 
     nav ul.active {
@@ -152,6 +149,13 @@
     nav ul li {
         padding: 2rem;
         font-weight: 700;
+    }
+
+    nav ul li:hover {
+        text-decoration: underline;
+        color: var(--color-one);
+        transition: 0.5s;
+        
     }
 
     .hamburger {
@@ -205,7 +209,10 @@
 /********** Gallery **********/
 @media screen and (min-width: 0px) {
     #gallery {
-        background-color: var(--color-four);
+        background: var(--color-two);
+        background: radial-gradient(circle,
+                var(--color-two) 0%,
+                var(--color-five) 100%);
     }
 
     .cards {
@@ -215,9 +222,10 @@
     }
 
     .card {
-        background-color: var(--color-four);
+        background-color: rgba(red, green, blue, 0);
         width: 20rem;
         margin: 1rem;
+        /* opacity: 0; */
     }
     
     .project {
@@ -286,7 +294,7 @@
 /********** Contact **********/
 @media screen and (min-width:0px) {
     #contact {
-        background-color: var(--color-four);
+        background: var(--color-three);
     }
 
     #contact form {

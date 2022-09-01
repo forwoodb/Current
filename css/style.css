@@ -9,7 +9,7 @@
         --color-three: hsl(240, 0%, 55%);
         --color-four: hsl(240, 0%, 35%);
         --color-five: hsl(240, 0%, 15%);
-        --accent: #eece1a;
+        --accent: #73B1C6;
 
     }
     
@@ -178,7 +178,7 @@
     }
     
     #hero:after {
-        background: url('../images/landing.jpg');
+        background: url('../images/project-2.png');
         content: '';
         background-size: cover;
         position: absolute;
@@ -186,7 +186,7 @@
         right: 0px;
         bottom: 0px;
         left: 0px;
-        opacity: 0.1;
+        opacity: .3;
     }
 
     .hero-text {
@@ -293,14 +293,10 @@
     }
 }
 
-@media screen and (min-width: 1024px) {
-    
-}
-
 /********** Contact **********/
 @media screen and (min-width:0px) {
     #contact {
-        background: var(--color-three);
+        background: var(--color-two);
     }
 
     #contact form {

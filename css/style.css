@@ -238,7 +238,7 @@
         position: relative;
         padding: 0;
         width: 20rem;
-        /* height: 20rem; */
+        height: 12rem;
     }
     .project-img {
         width: 100%;
@@ -250,12 +250,17 @@
     .project:hover .project-img {
         filter: blur(20px);
     }
-    .project-info {
-        color: var(--color-one);
+    .project-info, .project-info-dark {
         position: relative;
         padding: 1rem;
         opacity: 0;
         transition: 0.5s;
+    }
+    .project-info {
+        color: var(--color-five);
+    }
+    .project-info-dark {
+        color: var(--color-one);
     }
     .project-info li {
         padding: 0.5rem;

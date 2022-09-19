@@ -1,0 +1,43 @@
+@import 'style.css';
+
+@media(min-width: 0px) {
+    #more-projects {
+        background-color: var(--color-three);
+        padding-top: 8.5rem;
+        padding-bottom: 4rem;
+    }
+    
+    #more-projects ul {
+        width: 95%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    #more-projects ul li {
+        /* display: flex; */
+        /* justify-content: space-between; */
+        /* align-items: center; */
+        /* border: 1px solid red; */
+        margin-bottom: 25px;
+    }
+    
+    
+}
+
+@media screen and (min-width: 768px) {
+    #more-projects ul li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+    .btn-light {
+        width: 85%;
+        text-align: left;
+    }
+
+    .btn-dark {
+        min-width: 150px;
+        height: 100%;
+    }
+}

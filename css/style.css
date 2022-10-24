@@ -182,7 +182,7 @@
     }
     
     #hero:after {
-        background: url('../images/project-2.png');
+        background: url('../images/project-2.webp');
         content: '';
         background-size: cover;
         position: absolute;

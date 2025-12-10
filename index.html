@@ -1,101 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Current Portfolio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#gallery">projects</a></li>
-                <li><a href="#contact">contact</a></li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </nav> 
+      <nav>
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#gallery">projects</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
     </header>
     <main>
-        <section id="hero">
-            <div class="hero-text">
-                <h1 id="home-h">Brent's Portfolio</h1>
-                <h6>
-                    Full Stack Developer
-                </h6>
-                <div class="social-media">
-                    <a class="button-solid" href="https://www.linkedin.com/in/brentforwood/" target="_blank" rel="noopener">
-                        <i class="fab fa-linkedin fa-2x"></i>
-                    </a>
-                    <a class="button-solid" href="https://github.com/forwoodb" target="_blank" rel="noopener">
-                        <i class="fab fa-github fa-2x"></i>
-                    </a>
-                </div>
+      <section id="hero">
+        <div class="hero-text">
+          <h1 id="home-h">Brent's Portfolio</h1>
+          <h6>Full Stack Developer</h6>
+          <div class="social-media">
+            <a
+              class="button-solid"
+              href="https://www.linkedin.com/in/brentforwood/"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a
+              class="button-solid"
+              href="https://github.com/forwoodb"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="gallery">
+        <h4>Projects</h4>
+        <div class="cards">
+          <div class="card">
+            <div class="project">
+              <img
+                class="project-img"
+                src="images/det_sports.webp"
+                alt="Project"
+              />
+              <ul class="project-info">
+                <li><u>Languages</u>: HTML, CSS, Python</li>
+                <li>
+                  <u>Frameworks/Libraries</u>: Django, Bootstrap, Selenium
+                </li>
+                <li><u>Database</u>: SQLite</li>
+              </ul>
             </div>
-        </section>
-        <section id="gallery">
-            <h4>Projects</h4>
-            <div class="cards">
-                <div class="card">
-                    <div class="project">
-                        <img class="project-img" src="images/det_sports.webp" alt="Project">
-                        <ul class="project-info">
-                            <li><u>Languages</u>: HTML, CSS, Python</li>
-                            <li><u>Frameworks/Libraries</u>: Django, Bootstrap, Selenium</li>
-                            <li><u>Database</u>: SQLite</li>
-                        </ul>
-                    </div>
-                    <a href="https://detroit-sports-aggregator.herokuapp.com/" class="btn-light" target="_blank">
-                        <i class="fas fa-eye"></i> Detroit Sports News Aggregator
-                    </a>
-                    <a href="https://github.com/forwoodb/Detroit-Sports-Aggregator" class="btn-dark" target="_blank">
-                        <i class="fab fa-github"></i> Github
-                    </a>
-                </div>
-                <div class="card">
-                    <div class="project">
-                        <img class="project-img" src="images/list-creator.webp" alt="Project">
-                        <ul class="project-info">
-                            <li><u>Languages</u>: HTML, CSS, Python</li>
-                            <li><u>Frameworks/Libraries</u>: Django, Bootstrap</li>
-                            <li><u>Database</u>: SQLite</li>
-                        </ul>
-                    </div>
-                    <a href="https://list-creator.herokuapp.com/" class="btn-light" target="_blank">
-                        <i class="fas fa-eye"></i> List Creator
-                    </a>
-                    <a href="https://github.com/forwoodb/ListCreator" class="btn-dark" target="_blank">
-                        <i class="fab fa-github"></i> Github
-                    </a>
-                </div>
-                <div class="card">
-                    <div class="project">
-                        <img class="project-img" src="images/list_app.webp" alt="Project">
-                        <ul class="project-info">
-                            <li><u>Languages</u>: HTML, CSS, Python</li>
-                            <li><u>Frameworks/Libraries</u>: Django, Bootstrap</li>
-                            <li><u>Database</u>: SQLite</li>
-                        </ul>
-                    </div>
-                    <a href="https://floating-cove-82684.herokuapp.com/" target="_blank" class="btn-light">
-                        <i class="fas fa-eye"></i> List App
-                    </a>
-                    <a href="https://github.com/forwoodb/list-app-react-firebase" class="btn-dark" target="_blank">
-                        <i class="fab fa-github"></i> Github
-                    </a>
-                </div>
-                <!-- <div class="card" hidden>
+            <a
+              href="https://detroit-sports-aggregator.herokuapp.com/"
+              class="btn-light"
+              target="_blank"
+            >
+              <i class="fas fa-eye"></i> Detroit Sports News Aggregator
+            </a>
+            <a
+              href="https://github.com/forwoodb/Detroit-Sports-Aggregator"
+              class="btn-dark"
+              target="_blank"
+            >
+              <i class="fab fa-github"></i> Github
+            </a>
+          </div>
+          <div class="card">
+            <div class="project">
+              <img
+                class="project-img"
+                src="images/list-creator.webp"
+                alt="Project"
+              />
+              <ul class="project-info">
+                <li><u>Languages</u>: HTML, CSS, Python</li>
+                <li><u>Frameworks/Libraries</u>: Django, Bootstrap</li>
+                <li><u>Database</u>: SQLite</li>
+              </ul>
+            </div>
+            <a
+              href="https://list-creator.herokuapp.com/"
+              class="btn-light"
+              target="_blank"
+            >
+              <i class="fas fa-eye"></i> List Creator
+            </a>
+            <a
+              href="https://github.com/forwoodb/ListCreator"
+              class="btn-dark"
+              target="_blank"
+            >
+              <i class="fab fa-github"></i> Github
+            </a>
+          </div>
+          <div class="card">
+            <div class="project">
+              <img
+                class="project-img"
+                src="images/list_app.webp"
+                alt="Project"
+              />
+              <ul class="project-info">
+                <li><u>Languages</u>: HTML, CSS, Python</li>
+                <li><u>Frameworks/Libraries</u>: Django, Bootstrap</li>
+                <li><u>Database</u>: SQLite</li>
+              </ul>
+            </div>
+            <a
+              href="https://floating-cove-82684.herokuapp.com/"
+              target="_blank"
+              class="btn-light"
+            >
+              <i class="fas fa-eye"></i> List App
+            </a>
+            <a
+              href="https://github.com/forwoodb/list-app-react-firebase"
+              class="btn-dark"
+              target="_blank"
+            >
+              <i class="fab fa-github"></i> Github
+            </a>
+          </div>
+          <!-- <div class="card" hidden>
                     <div class="project">
                         <img class="project-img" src="images/project-1.webp" alt="Project">
                         <ul class="project-info">
@@ -112,26 +161,27 @@
                         <i class="fab fa-github"></i> Github
                     </a>
                 </div> -->
-            </div>
-            <p><a href="more-projects.html" target="_blank">More Projects --></a></p>
-        </section>
-        <section id="contact">
-            <h4>Contact</h4>
-            <form name="contact" method="POST" netlify action="/pages/success">
-                <label for="name">Name</label>
-                <input type="text" name="name">
-                <label for="email">Email</label>
-                <input type="email" name="email">
-                <label for="message">Message</label>
-                <textarea name="message" id="" cols="30" rows="10"></textarea>
-                <input type="submit" value="Send">
-            </form>
-        </section>
+        </div>
+        <p>
+          <a href="more-projects.html" target="_blank">More Projects --></a>
+        </p>
+      </section>
+      <section id="contact">
+        <h4>Contact</h4>
+        <form name="contact" method="POST" netlify action="/pages/success">
+          <label for="name">Name</label>
+          <input type="text" name="name" />
+          <label for="email">Email</label>
+          <input type="email" name="email" />
+          <label for="message">Message</label>
+          <textarea name="message" id="" cols="30" rows="10"></textarea>
+          <input type="submit" value="Send" />
+        </form>
+      </section>
     </main>
     <footer>
-        <p>&copy 2022 Brent Forwood</p>
+      <p>&copy 2022 Brent Forwood</p>
     </footer>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>

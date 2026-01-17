@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Brent Forwood's Project Portfolio" />
+    <meta
+      name="keywords"
+      content="Web Development, Next.js, Tailwind, CSS, MongoDB"
+    />
+    <meta name="author" content="Brent Forwood" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -34,13 +40,14 @@
       <section id="hero">
         <div class="hero-text">
           <h1 id="home-h">Brent's Portfolio</h1>
-          <h6>Full Stack Developer</h6>
+          <h2>Full Stack Developer</h2>
           <div class="social-media">
             <a
               class="button-solid"
               href="https://www.linkedin.com/in/brentforwood/"
               target="_blank"
               rel="noopener"
+              aria-label="linkedin"
             >
               <i class="fab fa-linkedin fa-2x"></i>
             </a>
@@ -49,6 +56,7 @@
               href="https://github.com/forwoodb"
               target="_blank"
               rel="noopener"
+              aria-label="github"
             >
               <i class="fab fa-github fa-2x"></i>
             </a>
@@ -56,13 +64,13 @@
         </div>
       </section>
       <section id="gallery">
-        <h4>Projects</h4>
+        <h3>Projects</h3>
         <div class="cards">
           <div class="card">
             <div class="project">
               <img
                 class="project-img"
-                src="images/stock-tracker.png"
+                src="images/stock-tracker.webp"
                 alt="Project"
               />
               <ul class="project-info">
@@ -118,7 +126,7 @@
             <div class="project">
               <img
                 class="project-img"
-                src="images/grocery-tracker.png"
+                src="images/grocery-tracker.webp"
                 alt="Project"
               />
               <ul class="project-info">
@@ -174,7 +182,7 @@
             <div class="project">
               <img
                 class="project-img"
-                src="images/list-creator-2.png"
+                src="images/list-creator-2.webp"
                 alt="Project"
               />
               <ul class="project-info">
@@ -232,14 +240,14 @@
         </p>
       </section>
       <section id="contact">
-        <h4>Contact</h4>
+        <h3>Contact</h3>
         <form name="contact" method="POST" netlify action="/pages/success">
           <label for="name">Name</label>
-          <input type="text" name="name" />
+          <input type="text" name="name" id="name" />
           <label for="email">Email</label>
-          <input type="email" name="email" />
+          <input type="email" name="email" id="email" />
           <label for="message">Message</label>
-          <textarea name="message" id="" cols="30" rows="10"></textarea>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
           <input type="submit" value="Send" />
         </form>
       </section>

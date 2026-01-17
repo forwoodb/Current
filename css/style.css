@@ -47,25 +47,13 @@
   }
 
   h2 {
-    font-size: 60px;
+    font-size: 24px;
   }
 
   h3 {
-    font-size: 48px;
-  }
-
-  h4 {
     font-size: 36px;
     padding: 2rem;
     text-align: center;
-  }
-
-  h5 {
-    font-size: 30px;
-  }
-
-  h6 {
-    font-size: 24px;
   }
 
   section {
@@ -196,7 +184,7 @@
   }
 
   .hero-text h1,
-  .hero-text h6,
+  .hero-text h2,
   .hero-text .social-media {
     text-align: center;
     color: var(--color-one);
@@ -310,7 +298,7 @@
 /********** Contact **********/
 @media screen and (min-width: 0px) {
   #contact {
-    background: var(--color-two);
+    background: var(--color-three);
   }
 
   #contact form {
@@ -318,7 +306,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 95%;
     padding: 1rem;
+    margin: auto;
+    background-color: var(--color-four);
+    border-radius: 10px;
   }
 
   #contact form label {
@@ -339,15 +331,13 @@
 }
 
 @media screen and (min-width: 768px) {
-  #contact form textarea,
-  input {
+  #contact form {
     width: 75%;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  #contact form textarea,
-  input {
+  #contact form {
     width: 50%;
   }
 }
